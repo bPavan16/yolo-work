@@ -33,7 +33,7 @@ This project is a People Counter using the YOLO (You Only Look Once) object dete
 
 ## Usage
 
-1. Download the YOLOv3 weights and configuration files from the [official YOLO website](https://pjreddie.com/darknet/yolo/).
+1. Download the YOLOv8 weights and configuration files from the [official YOLO website](https://pjreddie.com/darknet/yolo/).
 2. Place the downloaded files in the `yolo` directory.
 3. Run the people counter script:
     ```bash
