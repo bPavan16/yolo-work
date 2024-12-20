@@ -19,34 +19,34 @@ This project is a People Counter using the YOLO (You Only Look Once) object dete
 ## Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/People-Counter.git
-    ```
+```bash
+git clone https://github.com/yourusername/People-Counter.git
+```
+
 2. Navigate to the project directory:
-    ```bash
-    cd People-Counter
-    ```
+ ```bash
+ cd People-Counter
+```
+
 3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
 1. Download the YOLOv8 weights and configuration files from the [official YOLO website](https://pjreddie.com/darknet/yolo/).
 2. Place the downloaded files in the `yolo` directory.
 3. Run the people counter script:
-    ```bash
-    python people_counter.py --input path_to_video_or_image --output path_to_output
-    ```
+```bash
+python people_counter.py 
+```
 
 ## Example
 
 ```bash
-python people_counter.py --input sample_video.mp4 --output output_video.avi
+python people_counter.py
 ```
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
